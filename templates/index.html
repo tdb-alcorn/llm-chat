@@ -11,7 +11,9 @@
 			<h1>Chat with LLM</h1>
 		</header>
 		<main>
-			<div id="chatbox"></div>
+			<div id="chatbox">
+        <div class="chat-item llm-msg">{{ initial_message }}</div>
+      </div>
 			<div id="input-container">
 				<input type="text" id="user-input" placeholder="Type your message here...">
 				<button id="send-btn">Send</button>
